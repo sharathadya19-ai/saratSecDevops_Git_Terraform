@@ -1,9 +1,9 @@
 ### Information file for Terraform with Azure.
 
 ## Resource Creation syntax
-resorce <type-of-the-resource> <name-of-the-resource>
-argument1 = ?
-argument2 = ?
+resorce <type-of-the-resource> <name-of-the-resource>       
+argument1 = ?       
+argument2 = ?       
 
 
 ## Terraform Credentials for Azure
