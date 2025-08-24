@@ -5,12 +5,12 @@ terraform {
       version = "4.41.0"
     }
   }
-backend "azurerm" {
-resource_group_name = "saratdevops-RG5"    
-storage_account_name = "sarardevopetfstae" 
-container_name       = "tfstate"
-key                  = "dev.tfstate"
-}
+  backend "azurerm" {
+    resource_group_name  = "saratdevops-RG5"
+    storage_account_name = "sarardevopetfstae"
+    container_name       = "tfstate"
+    key                  = "dev.tfstate"
+  }
 
 
 
